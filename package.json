@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A contact us React component library",
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
