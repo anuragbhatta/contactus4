@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A contact us React component library",
   "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
     "access": "public"
   },
   "dependencies": {
@@ -57,7 +58,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anuragbhatta/contactus4.git"
+    "url": "https://github.com/anuragbhatta/contactus4.git"
   },
   "keywords": [
     "contactus4"
