@@ -1,6 +1,7 @@
 {
-  "name": "contactus4",
+  "name": "@anuragbhatta1989/contactus4",
   "version": "0.1.0",
+  "description": "A contact us React component library",
   "private": true,
   "publishConfig": {
     "access": "restricted"
