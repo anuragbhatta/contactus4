@@ -2,20 +2,30 @@
   "name": "contactus4",
   "version": "0.1.0",
   "private": true,
+  "publishConfig": {
+    "access": "restricted"
+ },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "rollup": "rollup -c"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +44,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.46",
+    "react": "^18.2.0",
+    "rollup": "^4.9.2",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.3.3"
   }
 }
