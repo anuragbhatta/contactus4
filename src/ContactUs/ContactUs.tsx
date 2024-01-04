@@ -125,7 +125,7 @@ export default function ContactUs() {
           } */}
           < button className="rounded-md bg-white text-black text-xl font-bold px-5 py-1 mt-5"
           //  onClick={(e) => { handleSubmit(e) }}
-            type='submit'>Submit</button>
+            type='submit'>Submit me</button>
         </form >
       </div>
     </main>
