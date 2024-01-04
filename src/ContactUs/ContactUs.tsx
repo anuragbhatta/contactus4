@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 
 // export interface ButtonProps {
 //   label: string;
@@ -20,7 +21,7 @@ interface Errors {
 
 export default function ContactUs() {
 
-  // const [name, setName] = useState('');
+  const [name, setName] = useState('');
   // const [email, setEmail] = useState('');
   // const [message, setMessage] = useState('');
   // const [submitted, setSubmitted] = useState(false);

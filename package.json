@@ -1,13 +1,9 @@
 {
   "name": "@anuragbhatta1989/contactus4",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A contact us React component library",
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -40,6 +36,13 @@
       "last 1 safari version"
     ]
   },
+  "dependencies": {
+    "react-scripts": "5.0.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -50,6 +53,7 @@
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/react": "^18.2.46",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^4.9.2",
     "rollup-plugin-dts": "^6.1.0",
     "typescript": "^5.3.3"
